@@ -1,0 +1,9 @@
+[project]
+name = "livekit-voice-agent-workshop"
+version = "0.1.0"
+description = "Hands-on cascaded voice AI agent on LiveKit (workshop starter)"
+requires-python = ">=3.12"
+dependencies = [
+    "livekit-agents[silero]>=1.6,<2",
+    "python-dotenv>=1.0",
+]

@@ -1,0 +1,15 @@
+# Secrets — never commit real keys
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.uv/
+*.egg-info/
+
+# Local tooling
+/.claude
+.DS_Store
